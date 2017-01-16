@@ -1,0 +1,12 @@
+D:\hibernate\MapeoUnaEntidad\src\main\java\es\albarregas\daofactory\DAOFactory.java
+D:\hibernate\MapeoUnaEntidad\src\main\java\es\albarregas\controllers\Eleccion.java
+D:\hibernate\MapeoUnaEntidad\src\main\java\es\albarregas\daofactory\MySQLDAOFactory.java
+D:\hibernate\MapeoUnaEntidad\src\main\java\es\albarregas\dao\GenericoDAO.java
+D:\hibernate\MapeoUnaEntidad\src\main\java\es\albarregas\dao\ProfesorDAO.java
+D:\hibernate\MapeoUnaEntidad\src\main\java\es\albarregas\modelo\Profesor.java
+D:\hibernate\MapeoUnaEntidad\src\main\java\es\albarregas\controllers\Conclusion.java
+D:\hibernate\MapeoUnaEntidad\src\main\java\es\albarregas\dao\IGenericoDAO.java
+D:\hibernate\MapeoUnaEntidad\src\main\java\es\albarregas\dao\IProfesorDAO.java
+D:\hibernate\MapeoUnaEntidad\src\main\java\es\albarregas\persistencia\HibernateUtil.java
+D:\hibernate\MapeoUnaEntidad\src\main\java\es\albarregas\modelo\Direccion.java
+D:\hibernate\MapeoUnaEntidad\src\main\java\es\albarregas\controllers\Controlador.java

@@ -9,13 +9,14 @@ import es.jesushm.dao.GenericoDAO;
 public class MySQLDAOFactory extends DAOFactory{
 
     @Override
-    public IProfesorDAO getGenericoDAO() {
+    public IProfesorDAO getProfesorDAO(){
         return new ProfesorDAO();
     }
 
+
     @Override
-    public IGenericoDAO getProfesorDAO() {
-        return new GenericoDAO();
+    public IGenericoDAO getGenericoDAO() {
+         return new GenericoDAO();
     }
     
 }

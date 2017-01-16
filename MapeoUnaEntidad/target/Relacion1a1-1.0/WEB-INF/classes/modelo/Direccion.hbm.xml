@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="es.albarregas.modelo.Direccion" table="direccionmap">
+        <id name="idDirec" type="integer">
+            <column name="idDirecCol" />
+            <generator class="identity" />
+        </id>
+        <property name="calle" >
+            <column name ="calleCol"/>
+        </property>
+        
+        <property name="numero" />
+        <property name="poblacion" />
+        <property name="provincia" />
+    </class>
+</hibernate-mapping>

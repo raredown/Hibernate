@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="es.albarregas.modelo.Persona" table="persona">
+        <id name="idPerso" type="integer">
+            <column name="id" />
+            <generator class="identity" />
+            
+        </id>
+        <property name="nombre" />
+        <list name="libros" table="libro" lazy="false" fetch="select" cascade="all">
+            <key>
+                <column name="idPersona" />
+            </key>
+            <list-index>
+                <column name="orden" />
+            </list-index>
+            <one-to-many class="es.albarregas.modelo.Libro" />
+        </list>
+    </class>
+</hibernate-mapping>

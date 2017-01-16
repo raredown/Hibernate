@@ -10,8 +10,8 @@ public abstract class DAOFactory {
     public static final int ORACLE = 2;
     public static final int FICHERO = 3;*/
     
-    public abstract IProfesorDAO getGenericoDAO();
-    public abstract IGenericoDAO getProfesorDAO();
+    public abstract IProfesorDAO getProfesorDAO();
+    public abstract IGenericoDAO  getGenericoDAO();
     
     public static DAOFactory getDAOFactory(){
         DAOFactory daof = new MySQLDAOFactory();

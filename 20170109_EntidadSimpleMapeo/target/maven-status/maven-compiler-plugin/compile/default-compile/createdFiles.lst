@@ -1,0 +1,9 @@
+es\jesushm\daoFactory\DAOFactory.class
+es\jesushm\daoFactory\MySQLDAOFactory.class
+es\jesushm\dao\GenericoDAO.class
+es\albarregas\controlador\Controlador.class
+es\jesushm\dao\IGenericoDAO.class
+es\jesushm\dao\IProfesorDAO.class
+es\jesushm\persistencia\HibernateUtil.class
+es\jesushm\modelos\Profesor.class
+es\jesushm\dao\ProfesorDAO.class
