@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!-- parámetros para la conexión a la base de datos -->
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/validaHib?zeroDateTimeBehavior=convertToNull</property>
+        <property name="hibernate.connection.username">java2017</property>
+        <property name="hibernate.connection.password">2017</property>
+    
+        <!-- Configuración del pool interno -->
+        <property name="hibernate.connection.pool_size">1</property>
+    
+        <!-- Dialecto de la base de datos -->
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
+    
+        <!-- Otras propiedades importantes -->
+        <property name="hibernate.show_sql">false</property>
+        <property name="format_sql">true</property>
+        <property name="use_sql_comments">true</property>
+        <property name="hibernate.hbm2ddl.auto">create</property>
+    
+        <!-- Clases o archivos de mapeo -->
+        <mapping class="es.albarregas.modelo.Profesor"/>
+        <mapping class="es.albarregas.modelo.Usuario"/>
+       
+
+  </session-factory>
+</hibernate-configuration>
